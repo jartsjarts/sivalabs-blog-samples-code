@@ -51,7 +51,7 @@ public class AppConfig {
 	
 	@Bean
 	public JavaMailSenderImpl javaMailSenderImpl() {
-		System.out.println("Prova del Jordi");
+		System.out.println("Prova del Jordiiiii");
 		JavaMailSenderImpl mailSenderImpl = new JavaMailSenderImpl();
 		mailSenderImpl.setHost(env.getProperty("smtp.host"));
 		mailSenderImpl.setPort(env.getProperty("smtp.port", Integer.class));
